@@ -209,6 +209,15 @@
     	require_once('footer.php');
     
     ?>
+    
+    <!-- Footer -->
+        <footer>
+		        <div class="col-lg-12">
+			        <div class="container">
+                    	<h4>TechITEasy.com Copyright 2015</h4>
+			        </div>
+		        </div>
+        </footer>
 
 
     <!-- jQuery -->
