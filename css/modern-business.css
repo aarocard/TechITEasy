@@ -89,6 +89,20 @@ header.carousel .fill {
     background-size: cover;
 }
 
+/* Our Team Styles */
+.row-same-height {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+@media (min-width: 992px) {
+  .col-md-height {
+    display: table-cell;
+    float: none !important;
+  }
+}
+
 /* 404 Page Styles */
 
 .error-404 {
