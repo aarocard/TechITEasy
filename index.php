@@ -14,11 +14,11 @@
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="css/modern-business.css" rel="stylesheet">
-
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	
+	<!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -209,15 +209,6 @@
     	require_once('footer.php');
     
     ?>
-    
-    <!-- Footer -->
-        <footer>
-		        <div class="col-lg-12">
-			        <div class="container">
-                    	<h4>TechITEasy.com Copyright 2015</h4>
-			        </div>
-		        </div>
-        </footer>
 
 
     <!-- jQuery -->
