@@ -204,13 +204,14 @@
     </div>
     <!-- /.container -->
     
+    <!-- Footer -->
     <?php
     
     	require_once('footer.php');
     
     ?>
-
-
+	<!-- /Footer -->
+	
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
