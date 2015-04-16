@@ -15,13 +15,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="about.html">About Us</a>
+                        <a href="about.php">About Us</a>
                     </li>
                     <li>
-                        <a href="services.html">Our Work</a>
+                        <a href="services.php">Our Work</a>
                     </li>
                     <li>
-                        <a href="contact.html">Services</a>
+                        <a href="contact.php">Services</a>
                     </li>
                 </ul>
             </div>
