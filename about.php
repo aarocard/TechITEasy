@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Modern Business - Start Bootstrap Template</title>
+    <title>TechITEasy - About</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -44,9 +44,7 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">About
-                    <small>Subheading</small>
-                </h1>
+                <h1 class="page-header">About</h1>
             </div>
         </div>
         <!-- /.row -->
@@ -57,10 +55,7 @@
                 <img class="img-responsive" src="imgs/team/team_lrg.jpg" alt="TechITEasy Team">
             </div>
             <div class="col-md-12">
-                <h2>About Modern Business</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>
+				<blockquote>Our goal is to bring expert knowledge and hands-on experience to every IT challenge our clients present, at an honest price.</blockquote>
             </div>
         </div>
         <!-- /.row -->
@@ -70,49 +65,50 @@
 			<div class="col-lg-12">
 					<h2 class="page-header">Our Team</h2>
 			</div>
-			<div class="row-same-height">
-				<div class="col-md-3 col-xs-height text-center">
-					<div class="thumbnail">
-						<img class="img-responsive" src="http://placehold.it/750x450" alt="">
-						<div class="caption">
-							<h3>Mike Busuttil<br>
-								<small>Computer Consultant</small>
-							</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
-						</div>
+			<div class="col-md-3 text-center">
+				<div class="thumbnail">
+					<img class="img-responsive" src="http://placehold.it/750x450" alt="">
+					<div class="caption">
+						<h3>Mike Busuttil<br>
+							<small>Computer Consultant</small>
+						</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime.</p>
+						<br />
 					</div>
 				</div>
-				<div class="col-md-3 col-md-height text-center" >
-					<div class="thumbnail">
-						<img class="img-responsive" src="imgs/team/team2.jpg" alt="Dave Fancsy - Team Member Photo" />
-						<div class="caption">
-							<h3>Dave Fancsy<br>
-								<small>IT Technician</small>
-							</h3>
-							<p>I am a Computer Networking major and I enjoy building and implementing network solutions.</p>
-						</div>
+			</div>
+			<div class="col-md-3 text-center" >
+				<div class="thumbnail">
+					<img class="img-responsive" src="http://placehold.it/750x450" alt="">
+					<div class="caption">
+						<h3>Dave Fancsy<br>
+							<small>IT Technician</small>
+						</h3>
+						<p>I am a Computer Networking major and I enjoy building and implementing network solutions.</p>
+						<br />
+						<br />
 					</div>
 				</div>
-				<div class="col-md-3 col-md-height text-center">
-					<div class="thumbnail">
-						<img class="img-responsive" src="http://placehold.it/750x450" alt="">
-						<div class="caption">
-							<h3>Bryan St. Pierre<br>
-								<small>IT Technician</small>
-							</h3>
-							<p>I am a graduate of Computer Networking at St.Clair College and have a lot of great experience with computers, network connections and customer service.</p>
-						</div>
+			</div>
+			<div class="col-md-3 text-center">
+				<div class="thumbnail">
+					<img class="img-responsive" src="http://placehold.it/750x450" alt="">
+					<div class="caption">
+						<h3>Bryan St. Pierre<br>
+							<small>IT Technician</small>
+						</h3>
+						<p>I am a graduate of Computer Networking at St.Clair College and have a lot of great experience with computers, network connections and customer service.</p>
 					</div>
 				</div>
-				<div class="col-md-3 col-md-height text-center">
-					<div class="thumbnail">
-						<img class="img-responsive" src="http://placehold.it/750x450" alt="">
-						<div class="caption">
-							<h3>Chris D'Ambrosio<br>
-								<small>IT Technician</small>
-							</h3>
-							<p>I am a Computer Networking student at St.Clair College. I have a passion for constructing and maintaining computers and the networks they accompany.</p>
-						</div>
+			</div>
+			<div class="col-md-3 text-center">
+				<div class="thumbnail">
+					<img class="img-responsive" src="http://placehold.it/750x450" alt="">
+					<div class="caption">
+						<h3>Chris D'Ambrosio<br>
+							<small>IT Technician</small>
+						</h3>
+						<p>I am a Computer Networking student at St.Clair College. I have a passion for constructing and maintaining computers and the networks they accompany.</p>
 					</div>
 				</div>
 			</div>
