@@ -52,7 +52,7 @@
         <!-- Intro Content -->
         <div class="row">
             <div class="col-md-12">
-                <img class="img-responsive" src="http://placehold.it/1200x300" alt="">
+                <img class="img-responsive" src="imgs/team/team_lrg.jpg" alt="TechITEasy Team">
             </div>
             <div class="col-md-12">
 				<blockquote>Our goal is to bring expert knowledge and hands-on experience to every IT challenge our clients present, at an honest price.</blockquote>
