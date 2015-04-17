@@ -78,32 +78,51 @@
         <!-- Contact Form -->
         <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
         <div class="row">
+        
+        <?php
+        	if (isset($_POST['submit'])) {
+        		$fullName = $_POST['fullName'];
+        		$subject = 'TechITEasy Email Message';
+        		$pNumber = $_POST['pNumber'];
+        		$email = $_POST['email'];
+        		$message = "<strong>" . $fullName . "<br />" . $pNumber . "<br />" . $email . "</strong><p>" . $_POST['message'] . "</p>";
+        		$to = "liam.pearce08@live.ca";
+				
+ 				mail($to,$subject,$message);
+        ?>
+        	<div class="col-md-12">
+        		<h2>Your message has been sent!</h2>
+        	</div>
+        <?php
+        	}
+        	else {
+        ?>
             <div class="col-md-8">
                 <h3>Send us a Message</h3>
-                <form name="sentMessage" id="contactForm" novalidate>
+                <form name="sentMessage" method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>" id="contactForm" novalidate>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Full Name:</label>
-                            <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                            <input type="text" name="fullName" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
                             <p class="help-block"></p>
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Phone Number:</label>
-                            <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+                            <input type="tel" name="pNumber" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Email Address:</label>
-                            <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+                            <input type="email" name="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Message:</label>
-                            <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                            <textarea rows="10" cols="100" name="message" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
                         </div>
                     </div>
                     <div id="success"></div>
@@ -111,8 +130,10 @@
                     <button type="submit" class="btn btn-primary">Send Message</button>
                 </form>
             </div>
-
         </div>
+        <?php
+        }
+        ?>
         <!-- /.row -->
 
         <hr>
