@@ -65,7 +65,7 @@
 			<div class="col-lg-12">
 					<h2 class="page-header">Our Team</h2>
 			</div>
-			<div class="col-md-3 text-center">
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
 				<div class="thumbnail">
 					<img class="img-responsive" src="http://placehold.it/750x450" alt="">
 					<div class="caption">
@@ -77,7 +77,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 text-center" >
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center" >
 				<div class="thumbnail">
 					<img class="img-responsive" src="http://placehold.it/750x450" alt="">
 					<div class="caption">
@@ -90,7 +90,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 text-center">
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
 				<div class="thumbnail">
 					<img class="img-responsive" src="http://placehold.it/750x450" alt="">
 					<div class="caption">
@@ -101,7 +101,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 text-center">
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
 				<div class="thumbnail">
 					<img class="img-responsive" src="http://placehold.it/750x450" alt="">
 					<div class="caption">
