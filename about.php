@@ -79,7 +79,7 @@
 			</div>
 			<div class="col-md-3 text-center" >
 				<div class="thumbnail">
-					<img class="img-responsive" src="http://placehold.it/750x450" alt="">
+					<img class="img-responsive" src="imgs/team/team2.jpg" alt="">
 					<div class="caption">
 						<h3>Dave Fancsy<br>
 							<small>IT Technician</small>
