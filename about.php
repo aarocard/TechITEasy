@@ -54,7 +54,7 @@
         <!-- Intro Content -->
         <div class="row">
             <div class="col-md-12">
-                <img class="img-responsive" src="http://placehold.it/1200x300" alt="">
+                <img class="img-responsive" src="imgs/team/team_lrg.jpg" alt="TechITEasy Team">
             </div>
             <div class="col-md-12">
                 <h2>About Modern Business</h2>
@@ -84,7 +84,7 @@
 				</div>
 				<div class="col-md-3 col-md-height text-center" >
 					<div class="thumbnail">
-						<img class="img-responsive" src="http://placehold.it/750x450" alt="">
+						<img class="img-responsive" src="imgs/team/team2.jpg" alt="Dave Fancsy - Team Member Photo" />
 						<div class="caption">
 							<h3>Dave Fancsy<br>
 								<small>IT Technician</small>
